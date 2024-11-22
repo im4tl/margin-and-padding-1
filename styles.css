@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+
+.one,
+.three {
+ padding: 32px;   
+}
+
+.one {
+margin: 12px;
+background-color: palevioletred;
+border: 1px solid blue;
+}
+
+.three{
+margin-top: 48px;
+margin-left: 400px;
+background-color: burlywood;
+border: 1px solid brown ;
+}
+
+.two{
+    background-color: cyan;
+    border: 1px solid purple;
+}
